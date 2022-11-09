@@ -7,6 +7,8 @@ import { BigNumber, FixedNumber } from "@ethersproject/bignumber";
 import { Signer, VoidSigner } from "@ethersproject/abstract-signer";
 import { Wallet } from "@ethersproject/wallet";
 
+import { HDNode } from "@ethersproject/hdnode";
+
 import * as constants from "@ethersproject/constants";
 
 import * as providers from "@ethersproject/providers";
@@ -61,6 +63,8 @@ import {
 
 export {
     Signer,
+
+    HDNode,
 
     Wallet,
     VoidSigner,
